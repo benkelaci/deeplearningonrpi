@@ -1,0 +1,19 @@
+www.raspberrypi.org/downloads
+  Raspbian -> Raspbian lite
+  download link:
+  https://downloads.raspberrypi.org/raspbian_lite_latest
+    
+  
+sourceforge.net
+  download Win32DiskImager
+  download link:
+    https://netix.dl.sourceforge.net/project/win32diskimager/Archive/win32diskimager-1.0.0-install.exe
+  
+    
+wwww.putty.org
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+  32-bit download link:
+    https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.70-installer.msi
+  64bit download link:
+    https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.70-installer.msi
+ 
