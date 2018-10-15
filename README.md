@@ -1,2 +1,2 @@
 # deeplearningonrpi
-Resources for Deep learning on Raspberry Pi coure
+Resources for Deep learning on Raspberry Pi course
