@@ -1,0 +1,13 @@
+https://pjreddie.com/darknet/yolov2/
+cd ~/darkflow
+wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov2-tiny.cfg
+wget https://pjreddie.com/media/files/yolov2-tiny.weights
+wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
+cp coco.names labels.txt
+python3 flow --model yolov2-tiny.cfg --load yolov2-tiny.weights --savepb
+cd built_graph/
+export PYTHONPATH="${PYTHONPATH}:/opt/movidius/caffe/python"
+mvNCCompile yolov2-tiny.pb -s 12 -in input -on output -o yolov2-tiny.graph
+wget -O mymovidius_yolo_test.zip "https://drive.google.com/uc?export=download&id=13KK_coUsmk0OSyHD6JYRJV7nd-i98w5c"
+sudo chmod +x mystart.sh
+sudo ./mystart.sh

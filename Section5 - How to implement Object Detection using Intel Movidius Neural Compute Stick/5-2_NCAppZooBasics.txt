@@ -1,0 +1,6 @@
+#if you have not cloned yet (in the lecture 6-1 we did it):
+git clone https://github.com/movidius/ncappzoo
+cd ncappzoo/apps/image-classifier
+make run
+#on this site you can find more information about the image-classifier:
+#https://github.com/movidius/ncappzoo/tree/master/apps/image-classifier

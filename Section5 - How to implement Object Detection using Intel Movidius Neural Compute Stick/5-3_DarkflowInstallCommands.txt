@@ -1,0 +1,10 @@
+git clone https://github.com/thtrieu/darkflow
+cd darkflow
+sudo python3 setup.py build_ext --inplace
+sudo nano darkflow/utils/loader.py 
+#go to line 121 and change the number 16 to 20:
+#    self.offset = 16  
+#	 ˇ
+#    self.offset = 20
+cp labels.txt labels_orig.txt
+nano labels.txt 
