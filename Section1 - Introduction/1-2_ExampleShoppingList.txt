@@ -1,0 +1,20 @@
+Raspberry PI 3 B+:
+  https://www.adafruit.com/product/3775 
+  check this: "Also include 1x Power Supply": https://www.adafruit.com/product/1995
+Recommended 16GB micro SD card or 32GB micro SD card:
+  https://www.adafruit.com/product/2693
+  https://www.amazon.com/Sandisk-Ultra-Micro-UHS-I-Adapter/dp/B073JWXGNT  
+Intel Movidius:
+  https://www.amazon.com/Intel-NCSM2450-DK1-Movidius-Neural-Compute/dp/B076751BN8
+  
+  
+---------  
+Optional:
+---------
+UTP Cable:
+  https://www.adafruit.com/product/995
+Raspberry Pi Case:
+  https://www.adafruit.com/product/2253
+Webcamera:
+  https://www.amazon.com/Logitech-Widescreen-designed-Calling-Recording/dp/B004FHO5Y6
+
