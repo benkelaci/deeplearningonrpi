@@ -1,4 +1,4 @@
-https://pjreddie.com/darknet/yolov2/
+#website: https://pjreddie.com/darknet/yolov2/
 cd ~/darkflow
 wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov2-tiny.cfg
 wget https://pjreddie.com/media/files/yolov2-tiny.weights

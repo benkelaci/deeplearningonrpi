@@ -1,0 +1,16 @@
+#on Windows:
+start menu -> cmd
+arp -a
+
+login as: pi
+pi@<your_ip_address>'s password: raspberry
+
+
+sudo raspi-config
+> 7 Advanced options
+>   A1 - Expand file system
+> 4 the Localisation options
+>   I1 Change locale
+
+sudo apt-get update
+sudo apt-get upgrade

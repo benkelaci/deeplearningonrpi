@@ -1,0 +1,13 @@
+#https://raspberrypi.stackexchange.com/questions/10251/prepare-sd-card-for-wifi-on-headless-pi
+#after you login succesfully (details in the next lecture), you can change the Wi-Fi parameters like this also
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+	id_str="home"
+	ssid="your_wifi_ssid"
+	psk="your_wifi_password"
+}

@@ -1,0 +1,16 @@
+python3  
+>>> import cv2 
+#you should get '3.4.2' (or higher), to work properly, in the older version there is no support for yolo weights file inference
+>>> cv2.__version__  
+cd /home/pi
+wget https://raw.githubusercontent.com/opencv/opencv/a8b0db4e5dd7606fa0da3094088d1656e6fdf1c0/samples/dnn/object_detection.py
+#check the .weight file, if no any permission error, then it is ok
+ls /home/pi/darkflow/yolo2-tiny.weights 
+#check the .cfg file
+ls /home/pi/darkflow/yolo2-tiny.cfg
+#check the label file
+ls /home/pi/darkflow/labels.txt 
+cd /home/pi
+wget "https://player.vimeo.com/external/228614687.hd.mp4?s=c5dd35b304e41fda58203aec3b29c9e1fcd3784c&profile_id=175&oauth2_token_id=57447761&download=1"
+#then you can run the script in VNC, it won't work in putty ssh (requires GUI)
+python3 object_detection.py \--input="/home/pi/Pexels Videos 4698.mp4" \--scale=0.00392 \--width=416 \--height=416 \--model="/home/pi/darkflow/yolov2-tiny.weights" \--config="/home/pi/darkflow/yolov2-tiny.cfg" \--framework="darknet" \--classes="/home/pi/darkflow/labels.txt"

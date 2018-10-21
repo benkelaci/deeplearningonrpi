@@ -1,0 +1,17 @@
+#How to install remote desktop and simple GUI:
+#https://www.raspberrypi.org/forums/viewtopic.php?t=133691
+#https://www.raspberrypi.org/documentation/remote-access/vnc/
+sudo apt-get remove xrdp vnc4server tightvncserver
+sudo apt-get install -y tightvncserver
+sudo apt-get install -y xrdp
+sudo apt-get install --no-install-recommends xserver-xorg
+sudo apt-get install --no-install-recommends xinit
+sudo apt-get install raspberrypi-ui-mods
+sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxsession
+
+sudo raspi-config
+
+#Now, enable VNC Server by doing the following:
+
+#    Navigate to Interfacing Options.
+#    Scroll down and select VNC > Yes.
