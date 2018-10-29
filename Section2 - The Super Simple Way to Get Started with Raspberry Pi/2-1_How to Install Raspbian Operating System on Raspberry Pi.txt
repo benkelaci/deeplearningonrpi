@@ -8,6 +8,8 @@ sourceforge.net
   download Win32DiskImager
   download link:
     https://netix.dl.sourceforge.net/project/win32diskimager/Archive/win32diskimager-1.0.0-install.exe
+ 
+(OPTIONAL: you can use Etcher instead of Win32DiskImager, if you are using Linux or macOS: https://etcher.io/)
   
     
 wwww.putty.org
