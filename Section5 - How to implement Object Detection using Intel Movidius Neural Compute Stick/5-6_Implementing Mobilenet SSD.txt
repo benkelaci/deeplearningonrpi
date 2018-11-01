@@ -1,10 +1,11 @@
-cd ncsdk/ncappzo/apps/video_object_threaded
-#or cd ncsdk-2.05.00.02/ncappzo/apps/video_object_threaded
+cd ncsdk/ncappzoo/apps/video_object_threaded
+#or cd ncsdk-2.05.00.02/ncappzoo/apps/video_object_threaded
 make
 #or if you encounter some permission error, then run "sudo make" rather
 sudo mc
 # then delete the videos with F8
 # after you deleted video files, login with VNC, because the script won't work in putty terminal (requires GUI)
 # in VNC, run a terminal (XTerm)
-cd ncsdk/ncappzo/apps/video_object_threaded
+cd ncsdk/ncappzoo/apps/video_object_threaded
+#or cd ncsdk-2.05.00.02/ncappzoo/apps/video_object_threaded
 python3 video_objects_threaded.py
