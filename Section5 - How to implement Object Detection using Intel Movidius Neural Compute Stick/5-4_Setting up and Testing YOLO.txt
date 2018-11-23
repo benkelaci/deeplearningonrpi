@@ -9,5 +9,6 @@ cd built_graph/
 export PYTHONPATH="${PYTHONPATH}:/opt/movidius/caffe/python"
 mvNCCompile yolov2-tiny.pb -s 12 -in input -on output -o yolov2-tiny.graph
 wget -O mymovidius_yolo_test.zip "https://drive.google.com/uc?export=download&id=13KK_coUsmk0OSyHD6JYRJV7nd-i98w5c"
+sudo ln -s /home/pi/darkflow/darkflow/ /home/pi/yolo_test/
 sudo chmod +x mystart.sh
 sudo ./mystart.sh
