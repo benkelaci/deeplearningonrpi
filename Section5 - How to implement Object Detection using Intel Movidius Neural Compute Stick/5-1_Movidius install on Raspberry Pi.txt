@@ -1,7 +1,7 @@
 sudo nano /etc/dphys-swapfile
 
 	CONF_SWAPSIZE=100
-	ก
+	ยก
 	CONF_SWAPSIZE=2048
 
 sudo /etc/init.d/dphys-swapfile restart swapon -s
@@ -9,9 +9,10 @@ sudo /etc/init.d/dphys-swapfile restart swapon -s
 sudo apt-get install git mc python-pip python3-pip cython3
 cd ~
 
-	git clone -b ncsdk2 http://github.com/Movidius/ncsdk
-OR
-	wget https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-02_05_00_02-full/ncsdk-2.05.00.02.tar.gz
+wget https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-02_05_00_02-full/ncsdk-2.05.00.02.tar.gz
+#OR 
+#git clone -b ncsdk2 http://github.com/Movidius/ncsdk
+#ATTENTION: not tested the latest version, so recommended to use wget instead of this command
 
 
 	
@@ -25,7 +26,7 @@ OR
 nano ncsdk.conf
 
 	#MAKE_NJOBS=1
-	ก
+	ยก
 	MAKE_NJOBS=1
 
 sudo apt install cython
@@ -51,7 +52,7 @@ sudo ./install-opencv.sh
 sudo nano /etc/dphys-swapfile
 
 	CONF_SWAPSIZE=2048
-	ก
+	ยก
 	CONF_SWAPSIZE=100
 
 sudo /etc/init.d/dphys-swapfile restart swapon -s
