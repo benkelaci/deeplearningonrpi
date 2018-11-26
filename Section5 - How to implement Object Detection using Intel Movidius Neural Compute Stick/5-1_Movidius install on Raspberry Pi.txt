@@ -20,7 +20,7 @@ tar -xzvf ncsdk-2.05.00.02.tar.gz
 
 	cd ncsdk 
 OR
-	cd ncsdk-2.05.00.02.tar.gz
+	cd ncsdk-2.05.00.02
 	
 	
 nano ncsdk.conf
